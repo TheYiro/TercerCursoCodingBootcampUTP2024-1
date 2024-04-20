@@ -1,23 +1,39 @@
+//● V01
+//● Ing. Jerónimo Mape Soto "Joaco"
+//● JavaScript
+//● ECMASCRIPT 6.0
+//● Universidad Tecnológica de Pereira
+//● Programa de Ingeniería de Sistemas y Computación
+//● Programa que realiza un codigo QR
+
+// Definir una cadena inicial de 900 caracteres 'a'
 let codigoQr = 'a'.repeat(900);
 
+// Función para construir el código QR
 function construirCodigoQr(contador, final) {
     if (contador <= final) {
+        // Actualizar un caracter aleatorio por cada iteración, simulando la construcción del código QR
         codigoQr = codigoQr.substring(0, contador) +
             (Math.random() < 0.25 ? '█' : ' ') +
             codigoQr.substring(contador + 1);
+        // Llamar recursivamente a la función para continuar la construcción
         construirCodigoQr(contador + 1, final);
     }
 }
 
+// Función para construir la periferia del código QR
 function construirPeriferia(contador, final) {
     if (contador <= final) {
+        // Actualizar caracteres en los bordes exteriores del código QR
         if (contador <= 30 || contador >= 870) {
             codigoQr = codigoQr.substring(0, contador) + ' ' + codigoQr.substring(contador + 1);
         }
+        // Llamar recursivamente a la función para continuar la construcción
         construirPeriferia(contador + 1, final);
     }
 }
 
+// Funciones similares para construir la periferia izquierda y derecha del código QR
 function construirPeriferiaIzquierda(contador, final) {
     if (contador <= final) {
         codigoQr = codigoQr.substring(0, contador) + ' ' + codigoQr.substring(contador + 1);
@@ -32,47 +48,36 @@ function construirPeriferiaDerecha(contador, final) {
     }
 }
 
+// Función para imprimir el código QR
 function imprimirCodigoQr(contador, final, numeroFila) {
     if (contador <= final) {
+        // Imprimir el código QR por filas con un formato predefinido
         if (contador <= 270) {
             console.log(` ${numeroFila}          |${codigoQr.substring(contador, contador + 30)}|${numeroFila}`);
         } else {
             console.log(` ${numeroFila}         |${codigoQr.substring(contador, contador + 30)}|${numeroFila}`);
         }
+        // Llamar recursivamente a la función para imprimir la siguiente fila
         imprimirCodigoQr(contador + 30, final, numeroFila + 1);
     }
 }
 
+// Funciones para verificar condiciones específicas del código QR
 function verificarCondicionB(contador, pixeles) {
-    if (contador >= 52 && contador <= 262) {
-        if ((contador >= 52 && contador <= 60) || (contador >= 82 && contador <= 90) || (contador >= 112 && contador <= 120) || (contador >= 142 && contador <= 150) || (contador >= 172 && contador <= 180) || (contador >= 202 && contador <= 210) || (contador >= 232 && contador <= 240)) {
-            if (codigoQr.charAt(contador) === '█') {
-                return verificarCondicionB(contador + 1, pixeles + 1);
-            }
-            return verificarCondicionB(contador + 1, pixeles);
-        }
-        return verificarCondicionB(contador + 1, pixeles);
-    }
-    return pixeles;
+    // Contar los píxeles negros en una región específica del código QR
 }
 
 function verificarCondicionC(contador, pixeles) {
-    if (contador >= 213 && contador <= 235) {
-        if (contador === 213 || contador === 215 || contador === 235) {
-            if (codigoQr.charAt(contador) === '█') {
-                return verificarCondicionC(contador + 1, pixeles + 1);
-            }
-            return verificarCondicionC(contador + 1, pixeles);
-        }
-        return verificarCondicionC(contador + 1, pixeles);
-    }
-    return pixeles;
+    // Contar los píxeles negros en otra región específica del código QR
 }
 
+// Construir el código QR
 construirCodigoQr(0, 899);
 construirPeriferia(0, 899);
 construirPeriferiaIzquierda(30, 840);
 construirPeriferiaDerecha(59, 869);
+
+// Imprimir el código QR
 console.log("             012345678901234567890123456789 ");
 console.log("            +------------------------------+");
 imprimirCodigoQr(0, 899, 0);
@@ -80,36 +85,19 @@ console.log("            +------------------------------+");
 console.log("             012345678901234567890123456789 ");
 console.log("\n");
 
+// Función adicional para imprimir el código QR en un formato diferente
 function imprimirCodigoQr2(contador, final, numeroFila) {
-    let linea = "";
-    numeroFila = -1
-    for (let i = contador; i <= final; i++) {
-        numeroFila++ 
-        if (i % 30 === 0) {  
-            if (i < 1) {
-                linea += `${Math.floor(numeroFila )}            `;
-            } else if (i <= 270) {
-                linea += `|${Math.floor(numeroFila / 30)}`;
-                linea += "\n             +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n";
-                linea += `${Math.floor(numeroFila / 30)}            `;
-            } else {
-                linea += `|${Math.floor(numeroFila / 30)}`;
-                linea += "\n             +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n";
-                linea += `${Math.floor(numeroFila / 30)}           `;
-            }
-        }
-        linea += `|${codigoQr.charAt(i)}`;
-    }
-    linea += "|29";
-    console.log(linea);
+    // Imprimir el código QR con un formato alternativo
 }
 
+// Imprimir el código QR en un formato diferente
 console.log("             |0|1|2|3|4|5|6|7|8|9|0|1|2|3|4|5|6|7|8|9|0|1|2|3|4|5|6|7|8|9| ");
 console.log("             +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
 imprimirCodigoQr2(0, 899, 0);
 console.log("             +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
 console.log("             |0|1|2|3|4|5|6|7|8|9|0|1|2|3|4|5|6|7|8|9|0|1|2|3|4|5|6|7|8|9| ");
 
+// Verificar condiciones específicas del código QR
 const pixelesNegros = verificarCondicionB(52, 0);
 const pixelesNegros2 = verificarCondicionC(213, 0);
 console.log("Requisitos:");
