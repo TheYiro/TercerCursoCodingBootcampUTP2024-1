@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("../imagenes/fondodemonservices.jpg");
+    background-repeat: no-repeat;
+}
+
+.login {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 25rem;
+    height: 31.25rem;
+    padding: 80px 40px;
+    background: linear-gradient(145deg, #2e2e2e, #272727);
+    border-radius: 58px;
+    box-shadow:  16px 16px 32px #161616,
+    -16px -16px 32px #414141;
+}
+
+.login h2 {
+    margin:0;
+    padding: 0 0 50px;
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #ff0000;
+    
+}
+
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ff0000;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.login input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 36px;
+    color: #fff;
+}
+
+.icon-user {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+}
+
+.icon-lock {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+}
+.social .fab {
+    position: relative;
+    top: 40px;
+    left: 83px;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+    color: #e2e2e2;
+    transition-duration:550ms;
+}
+
+.social .fab:hover {
+    color:#ff0000;
+    transition-duration:550ms;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botones button{
+    width: 40%;
+    background-color: #2e2e2e;
+    color: #fff;
+    transition: 1s;
+}
+.login form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.logintext{
+    align-self: flex-start;
+}
+.forgotp button{
+    background-color: #2e2e2e;
+    color: #fff;
+    transition: 1s;
+}
+.botones button:hover{
+    color: #ff0000;
+    transition: 1s;
+}
+.forgotp button:hover{
+    color: #ff0000;
+    transition: 1s;
+}
