@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../imagenes/fondodemonservices.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#nav-img {
+    width: 90px;
+    height: 105px;
+}
+
+#nav-logo {
+    width: 900px;
+    height: 150px;
+}
+
+.navbar_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3333339a;
+    transition: 2s;
+    padding: 10px;
+    backdrop-filter: blur(20%);
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-login {
+    text-decoration: none;
+}
+
+.nav-inicio {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-car img {
+    width: 60px;
+    height: 60px;
+}
+
+ul.menu {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px
+}
+
+ul.menu li {
+    float: left;
+    line-height: 24px;
+    margin: 10px 0 11px 0;
+    padding: 11px 47px 0px 4px;
+}
+
+ul.menu li:first-child {
+    background: transparent;
+}
+
+ul.menu a{
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    transition: 2s;
+}
+
+ul.menu li a:hover, ul.menu li.current a {
+    transition: 2s;
+    color: #ff0000;
+}
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+.login {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 25rem;
+    height: 31.25rem;
+    padding: 80px 40px;
+    background: linear-gradient(145deg, #2e2e2e, #272727);
+    border-radius: 58px;
+    box-shadow:  16px 16px 32px #161616,
+    -16px -16px 32px #414141;
+}
+
+.login h2 {
+    margin:0;
+    padding: 0 0 50px;
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #ff0000;
+    
+}
+
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ff0000;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.login input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 36px;
+    color: #fff;
+}
+
+.icon-user {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+}
+
+.icon-lock {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+}
+.social .fab {
+    position: relative;
+    top: 40px;
+    left: 83px;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+    color: #e2e2e2;
+    transition-duration:550ms;
+}
+
+.social .fab:hover {
+    color:#ff0000;
+    transition-duration:550ms;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botones button{
+    width: 40%;
+    background-color: #2e2e2e;
+    color: #fff;
+    transition: 1s;
+}
+.login form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.logintext{
+    align-self: flex-start;
+}
+.forgotp button{
+    background-color: #2e2e2e;
+    color: #fff;
+    transition: 1s;
+}
+.botones button:hover{
+    color: #ff0000;
+    transition: 1s;
+}
+.forgotp button:hover{
+    color: #ff0000;
+    transition: 1s;
+}
