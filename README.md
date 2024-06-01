@@ -101,6 +101,7 @@ tienda-estatica/
 ├── index.html
 ├── login.html
 └── products.html
+```
 
 ## Créditos
 **Este proyecto fue desarrollado por Joaco como parte del Proyecto Coding Bootcamp de la Universidad Tecnológica de Pereira (UTP).**
