@@ -14,7 +14,8 @@ Esta aplicación utiliza dos APIs para obtener imágenes de gatos y datos curios
 
 ## Capturas de pantalla
 
-![Captura de pantalla](./screenshot.png)
+![Captura de pantalla](https://cdn.discordapp.com/attachments/770019428174790699/1246451265844547695/image.png?ex=665c6fb3&is=665b1e33&hm=5cc7c5895b9bc9aec0c31899706e771a6e349d6bca5a7f143ee1451eb5e73111&)
+![Captura de pantalla](https://cdn.discordapp.com/attachments/770019428174790699/1246454081111855144/image.png?ex=665c7252&is=665b20d2&hm=47f1a47ea8d18f888b804cf1aebd5423367531d1aafc125a636f84cd2ddc7509&)
 
 ## Instalación
 
