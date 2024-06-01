@@ -1,6 +1,6 @@
 # Gatti Carini 🐱
 
-Bienvenido a **Gatti Carini**, una aplicación React que muestra imágenes adorables de gatos y datos interesantes sobre ellos. Desarrollada por Joaco.
+Bienvenido a **Gatti Carini**, una aplicación React para la consumición de dos APIs, que muestra imágenes adorables de gatos y datos interesantes sobre ellos. App by Joaco for CoodingBootCamp UTP 2024
 
 ## Descripción
 
