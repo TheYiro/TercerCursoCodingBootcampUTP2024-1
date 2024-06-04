@@ -1,13 +1,14 @@
 <h1 align="center">𝐀𝐏𝐈 𝐑𝐄𝐒𝐓 </h1>
 
-<h2>Desarrollado con: </h2>
+---
+
+## Desarrollado con:
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
-
 
 ---
 
@@ -21,7 +22,7 @@
 **Estas son las formas de entregar los datos a esta API:**
 
 ////register, se necesita tirar un POST a /register con este modelo: (los esquemas no permiten contraseñas de menos de 5 caracteres)
-```
+``` 
 {
     "email":"usuarioRegister@gmail.com",
     "password":"cocomelon",
@@ -68,9 +69,10 @@
   "comentario": "Este libro es excelente. Lo recomiendo ampliamente.",
   "puntuacion": 5
 }
+```
 
 //ejemplo de post y put en /libros :
-
+```
 {
     "titulo":"habitos atómicos",
     "autor":"James Clear",
@@ -80,3 +82,12 @@
 }
 ```
 ---
+
+<h4 align="center">Desarrollado Por: 
+
+Andres Jaramillo (Líder de grupo) <br>
+Jordan Valencia <br>
+Juan Sebastian Tamayo <br>
+Luisa Victoria sanchez <br>
+Jerónimo Mape
+</h4>
