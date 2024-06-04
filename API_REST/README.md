@@ -1,4 +1,17 @@
-Salvedades:
+<h1 align="center">𝐀𝐏𝐈 𝐑𝐄𝐒𝐓 </h1>
+
+<h2>Desarrollado con: </h2>
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+
+
+---
+
+### Salvedades:
 Los errores pueden ser manejados de la manera más perfecta, pero si se manejan.
 La unica tabla con solo un registro es Users, las demás si tienen sus respectivos registros.
 No se usaron variables de entorno por temas de conecciones.
