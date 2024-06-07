@@ -1,0 +1,11 @@
+.wrapper {
+  width: 340px;
+  height: 540px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #485461;
+  border-radius: 29px;
+  background: linear-gradient(145deg, #acacac, #919191);
+  box-shadow:  15px 15px 25px #646464,
+               -15px -15px 25px #646464;
+}
