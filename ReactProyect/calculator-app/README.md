@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# 🧮 React Calculator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React Calculator](https://cdn.discordapp.com/attachments/770877999599190056/1248726685021507735/image.png?ex=6664b6d9&is=66636559&hm=52691ae10b81939613576c08834211753d65531324eca76f2bcb4f015888e58b&)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Descripción
 
-### `npm start`
+Esta es una aplicación de calculadora construida con React. Permite realizar operaciones matemáticas básicas como suma, resta, multiplicación y división. La interfaz es estética y fácil de usar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Interfaz de usuario moderna y minimalista
+- Operaciones matemáticas básicas: suma, resta, multiplicación y división
+- Teclas para borrar, cambiar el signo, y calcular porcentajes
+- Soporte para entrada decimal
+- Mensaje de error para la división por cero
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Capturas de Pantalla
 
-### `npm run build`
+![Calculator Screenshot](https://cdn.discordapp.com/attachments/770877999599190056/1248726414145097759/image.png?ex=6664b699&is=66636519&hm=e9e818e55adfd1419b8cffe7bfb481d5caaccebc74044dbcb30815f9ce85cb11&)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologías Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instalación
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/react-calculator-app.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd react-calculator-app
+    ```
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
+4. Ejecuta la aplicación:
+    ```bash
+    npm start
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Uso
 
-## Learn More
+1. Abre la aplicación en tu navegador.
+2. Utiliza los botones de la calculadora para realizar operaciones matemáticas.
+3. El resultado se mostrará en la pantalla de la calculadora.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Estructura del Proyecto
+```
+calculator-app/
+├── public/
+│ ├── favicon.ico
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── Button.jsx
+│ │ ├── ButtonBox.jsx
+│ │ ├── Screen.jsx
+│ │ ├── Wrapper.jsx
+│ │ └── Footer.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.css
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+```
