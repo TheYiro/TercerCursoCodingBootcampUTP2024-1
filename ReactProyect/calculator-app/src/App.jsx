@@ -81,7 +81,7 @@ const App = () => {
         ...calc,
         res:
           calc.num === "0" && calc.sign === "/"
-            ? "Can't divide with 0"
+            ? "Nene no puedes divirme por 0"
             : toLocaleString(
                 math(
                   Number(removeSpaces(calc.res)),
