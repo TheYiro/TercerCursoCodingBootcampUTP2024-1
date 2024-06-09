@@ -1,0 +1,16 @@
+.screen {
+    color: white;
+    font-size: 5em;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto; 
+  border-radius: 50%;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #3a3a3aae, #616161a4);
+  box-shadow:  7px 7px 14px #9c9c9ca2,
+               -7px -7px 14px #717171a9;
+}
