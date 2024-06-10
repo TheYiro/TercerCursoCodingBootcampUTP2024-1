@@ -1,0 +1,23 @@
+.task-item {
+  background: #e3e3e3;
+  margin: 6px 0;
+  padding: 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item.completed {
+  background: #d3d3d3;
+  text-decoration: line-through;
+  color: #888;
+}
+
+.delete-icon {
+  margin-left: 10px;
+  color: red;
+  cursor: pointer;
+}

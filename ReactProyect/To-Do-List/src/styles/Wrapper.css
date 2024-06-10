@@ -1,0 +1,29 @@
+.wrapper {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #c8c8c85a;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border-radius: 28px;
+    background: linear-gradient(145deg, #5757578d, #b5b5b593);
+    box-shadow:  12px 12px 24px #7f7e7e,
+             -12px -12px 24px #9e9e9e;
+  }
+  
+  .wrapper h1 {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .task-input {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  

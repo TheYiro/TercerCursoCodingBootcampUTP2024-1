@@ -1,61 +1,70 @@
-# 📝 To-Do List App
+# Getting Started with Create React App
 
-Bienvenido a la **To-Do List App** - una aplicación simple y elegante para gestionar tus tareas diarias. ¡Añade, marca como completadas y elimina tareas fácilmente!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![To-Do List App](https://cdn.discordapp.com/attachments/770877999599190056/1249798214933155941/image.png?ex=66689cca&is=66674b4a&hm=258cf703e09ec3d46790f61345d20763bf3d68de17d40945fd4214c879917fa5&)
+## Available Scripts
 
-## 🚀 Características
+In the project directory, you can run:
 
-- **Añadir Tareas**: Escribe tu tarea y presiona el botón de "Agregar".
-- **Marcar como Completada**: Haz clic en una tarea para marcarla como completada.
-- **Eliminar Tareas**: Elimina tareas completadas haciendo clic en el icono de eliminación.
-- **Interfaz Amigable**: Diseñada para ser simple y fácil de usar.
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🛠️ Tecnologías Utilizadas
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 📸 Capturas de Pantalla
+### `npm run build`
 
-### Añadir una Tarea
-![Añadir Tarea](https://cdn.discordapp.com/attachments/770877999599190056/1249797990063800421/image.png?ex=66689c94&is=66674b14&hm=5fcf078e5f27a28ab94526c3dfd4d06f2119a32698ef5bdfe430cfc866a34afb&)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Tarea Completada
-![Tarea Completada](https://cdn.discordapp.com/attachments/770877999599190056/1249798074294079499/image.png?ex=66689ca9&is=66674b29&hm=80851287eebaab3468bf29bf1de00b007f5bba74f5135d5f4afbda149d77db34&)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Eliminar Tarea
-![Eliminar Tarea](https://cdn.discordapp.com/attachments/770877999599190056/1249797777899393106/image.png?ex=66689c62&is=66674ae2&hm=29e378cd52c870f858d3ea33c75696d403cfec55173c9aa1fb3db92358345f11&)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## 📦 Instalación
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Sigue estos pasos para ejecutar la aplicación en tu entorno local:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. **Clona el repositorio**:
-   ```
-   git clone https://github.com/tu-usuario/to-do-list-app.git
-   ```
-2. Navega al directorio del proyecto:
-```
-cd to-do-list-app
-```
-Instala las dependencias:
-```
-npm install
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Ejecuta la aplicación:
-```
-npm start
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-¡Gracias por usar la To-Do List App! Si te gusta este proyecto, no olvides darle una estrella ⭐ en GitHub.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
