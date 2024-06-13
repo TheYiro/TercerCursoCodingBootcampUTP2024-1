@@ -1,4 +1,4 @@
-# 📝 To-Do List App
+![image](https://github.com/TheYiro/TercerCursoCodingBootcampUTP2024-1/assets/71678926/c97039ba-f6ff-4744-91a9-4b36bcca47e3)# 📝 To-Do List App
 
 Bienvenido a la **To-Do List App** - una aplicación simple y elegante para gestionar tus tareas diarias. ¡Añade, marca como completadas y elimina tareas fácilmente!
 
@@ -24,11 +24,10 @@ Bienvenido a la **To-Do List App** - una aplicación simple y elegante para gest
 ## 📸 Capturas de Pantalla
 
 ### Añadir una Tarea
-![Añadir Tarea](https://cdn.discordapp.com/attachments/770877999599190056/1249797990063800421/image.png?ex=66689c94&is=66674b14&hm=5fcf078e5f27a28ab94526c3dfd4d06f2119a32698ef5bdfe430cfc866a34afb&)
+![Añadir Tarea](https://cdn.discordapp.com/attachments/770877999599190056/1249797990063800421/image.png?ex=666b3f94&is=6669ee14&hm=e0c09cc5d07e8b5340c6a8c9102324345994a9e80bf21ad4123416348b93b5e7&)
 
 ### Tarea Completada
-![Tarea Completada](https://cdn.discordapp.com/attachments/770877999599190056/1249798074294079499/image.png?ex=66689ca9&is=66674b29&hm=80851287eebaab3468bf29bf1de00b007f5bba74f5135d5f4afbda149d77db34&)
-
+![Tarea Completada](https://cdn.discordapp.com/attachments/770877999599190056/1249798074294079499/image.png?ex=666b3fa9&is=6669ee29&hm=18701d94eabd5a2dfeb7f9a24a959d648ce4352dd6e686d3a8c315ca4f064bb8&)
 ### Eliminar Tarea
 ![Eliminar Tarea](https://cdn.discordapp.com/attachments/770877999599190056/1249797777899393106/image.png?ex=66689c62&is=66674ae2&hm=29e378cd52c870f858d3ea33c75696d403cfec55173c9aa1fb3db92358345f11&)
 
